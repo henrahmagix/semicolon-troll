@@ -1,3 +1,7 @@
+## 1.1.0
+
+- Replace semicolons in .ts and .es6 files, on top of .js files.
+
 ### 1.0.1
 
 - Suppress `which git` output from running the hook so it's a more transparent troll.

@@ -1,6 +1,6 @@
 {
   "name": "semicolon-troll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Write syntax errors into staged JavaScript files before committing them.",
   "main": "index.js",
   "scripts": {

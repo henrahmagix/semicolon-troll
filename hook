@@ -1,6 +1,6 @@
 #!/bin/bash
 
-which git || exit 0
+which git > /dev/null || exit 0
 
 for file in $(git diff --name-only --cached)
 do

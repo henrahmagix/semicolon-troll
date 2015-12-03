@@ -1,0 +1,29 @@
+{
+  "name": "semicolon-troll",
+  "version": "0.0.0",
+  "description": "Write syntax errors into staged JavaScript files before committing them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrahmagix/semicolon-troll.git"
+  },
+  "keywords": [
+    "prank",
+    "troll",
+    "pre-commit",
+    "git"
+  ],
+  "author": "Henry Blyth <blyth.henry@gmail.com> (http://henryblyth.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henrahmagix/semicolon-troll/issues"
+  },
+  "homepage": "https://github.com/henrahmagix/semicolon-troll#readme",
+  "devDependencies": {
+    "bluebird": "^3.0.6",
+    "jasmine": "^2.3.2"
+  }
+}

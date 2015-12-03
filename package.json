@@ -4,6 +4,8 @@
   "description": "Write syntax errors into staged JavaScript files before committing them.",
   "main": "index.js",
   "scripts": {
+    "install": "node install.js",
+    "uninstall": "node uninstall.js",
     "test": "./node_modules/.bin/jasmine"
   },
   "repository": {

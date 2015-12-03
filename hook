@@ -1,0 +1,14 @@
+#!/bin/bash
+
+which git || exit 0
+
+for file in $(git diff --name-only --cached)
+do
+    filename=$(basename "$file")
+    extension="${filename##*.}"
+    if [ "$extension" == "js" ]
+    then
+        node node_modules/semicolon-troll/index.js $file
+        git add -- $file
+    fi
+done

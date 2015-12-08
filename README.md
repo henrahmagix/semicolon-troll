@@ -18,3 +18,7 @@ The install/uninstall scripts were copied wholesale from [observing/pre-commit@1
 ## What does it do
 - Installs a Git pre-commit hook that will replace all semicolons in staged JavaScript files with greek question marks.
 - Stages those changes for committing.
+
+## Terms and conditions
+
+By installing this package you hereby waive all responsibility from the author and acknowledge that the author will not reside for eternity in a firey furnace, in this life, all previous lives, and all future lives, for all time.
